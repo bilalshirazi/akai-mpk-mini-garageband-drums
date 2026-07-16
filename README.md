@@ -60,7 +60,20 @@ Use the physical **Bank A/B** button on your MPK Mini MK3 to toggle layouts:
 
 To play drum parts using the actual keys on your keyboard, you must transpose the keyboard down so the keys fall into the drum range (MIDI Octave 2).
 - **Setup**: Press the **`Octave Down`** button on your controller twice (so that it flashes or indicates **`OCT -2`**).
-- **The First 7 White Keys** (from left to right) will now trigger:
+
+### How to Find the Keys on Your Keyboard
+If you aren't familiar with musical note names (C, D, E, F, G, A, B), here is a simple way to find them on your MPK Mini's physical keys (starting from the far left):
+
+*   **Key 1 (C)**: The far-left white key (located immediately to the left of the group of **2 black keys**).
+*   **Key 2 (D)**: The white key directly between the group of **2 black keys**.
+*   **Key 3 (E)**: The white key immediately to the right of the group of **2 black keys**.
+*   **Key 4 (F)**: The white key immediately to the left of the group of **3 black keys**.
+*   **Key 5 (G)**: The white key between the 1st and 2nd black keys in the group of **3 black keys**.
+*   **Key 6 (A)**: The white key between the 2nd and 3rd black keys in the group of **3 black keys**.
+*   **Key 7 (B)**: The white key immediately to the right of the group of **3 black keys**.
+
+### Keyboard Key to Drum Map
+- **The White Keys** (from left to right) will trigger:
   1. **Key 1 (C)**: Kick (36)
   2. **Key 2 (D)**: Snare (38)
   3. **Key 3 (E)**: Electric Snare (40)
