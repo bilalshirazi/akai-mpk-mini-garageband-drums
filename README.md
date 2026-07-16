@@ -56,10 +56,95 @@ Use the physical **Bank A/B** button on your MPK Mini MK3 to toggle layouts:
 
 ---
 
+## 🎹 Using the Keyboard Keys for Drums
+
+To play drum parts using the actual keys on your keyboard, you must transpose the keyboard down so the keys fall into the drum range (MIDI Octave 2).
+- **Setup**: Press the **`Octave Down`** button on your controller twice (so that it flashes or indicates **`OCT -2`**).
+- **The First 7 White Keys** (from left to right) will now trigger:
+  1. **Key 1 (C)**: Kick (36)
+  2. **Key 2 (D)**: Snare (38)
+  3. **Key 3 (E)**: Electric Snare (40)
+  4. **Key 4 (F)**: Low Floor Tom (41)
+  5. **Key 5 (G)**: Mid Floor Tom (43)
+  6. **Key 6 (A)**: High Floor Tom (45)
+  7. **Key 7 (B)**: Low-Mid Tom (47)
+- **The Black Keys** (from left to right) will trigger:
+  - **Key C# (between 1 & 2)**: Side Stick / Rimshot (37)
+  - **Key D# (between 2 & 3)**: Hand Clap (39)
+  - **Key F# (between 4 & 5)**: Closed Hi-Hat (42)
+  - **Key G# (between 5 & 6)**: Pedal Hi-Hat (44)
+  - **Key A# (between 6 & 7)**: Open Hi-Hat (46)
+
+---
+
+## 🎶 Classic Beats Practice Guide
+
+Here is how to play 4 classic beats on your pads or keys.
+
+### 1. The Classic Rock Backbeat (4/4)
+*The most fundamental drum beat in modern music.*
+- **Tempo**: 100 - 120 BPM
+- **Instruments**: Kick, Snare, Closed Hi-Hat
+
+| Count | 1 | & | 2 | & | 3 | & | 4 | & |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Hi-Hat (Pad 3 / Key F#)** | X | X | X | X | X | X | X | X |
+| **Snare (Pad 2 / Key 2)** | | | X | | | | X | |
+| **Kick (Pad 1 / Key 1)** | X | | | | X | | | |
+
+*   **How to play**: Keep a steady "tick-tick-tick" with your right hand on the Hi-Hat. Tap the Kick with your left thumb on beats 1 and 3, and hit the Snare with your left index finger on beats 2 and 4.
+
+---
+
+### 2. Boom-Bap Hip-Hop Groove
+*The signature golden-era hip-hop rhythm.*
+- **Tempo**: 85 - 95 BPM
+- **Instruments**: Kick, Snare, Closed Hi-Hat, Open Hi-Hat
+
+| Count | 1 | & | 2 | & | 3 | & | 4 | & |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Hi-Hats** | Closed | Closed | Closed | Closed | Closed | Closed | Closed | Open |
+| **Snare (Pad 2 / Key 2)** | | | X | | | | X | |
+| **Kick (Pad 1 / Key 1)** | X | X | | | | X | | |
+
+*   **How to play**: Notice the double Kick hit at the beginning ("boom-boom-bap"). The Open Hi-Hat on the "&" of 4 creates a nice breathing effect leading back to the start.
+
+---
+
+### 3. Reggae "One Drop" Beat
+*The heartbeat of reggae music. The defining feature is that beat 1 is completely empty (no kick), and the kick/snare strike together only on beat 3.*
+- **Tempo**: 75 - 80 BPM
+- **Instruments**: Kick, Rimshot (Key C# or Bank B Pad 3), Closed Hi-Hat
+
+| Count | 1 | & | 2 | & | 3 | & | 4 | & |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Hi-Hat (Pad 3 / Key F#)** | | X | | X | | X | | X |
+| **Rimshot (Key C#)** | | | | | X | | | |
+| **Kick (Pad 1 / Key 1)** | | | | | X | | | |
+
+*   **How to play**: Play the Hi-Hat strictly on the offbeats (the "&" counts). Let beat 1 go by in silence, and land a heavy, unified strike on the Kick and Rimshot together on beat 3.
+
+---
+
+### 4. Drum & Bass / Jungle Beat
+*A fast, syncopated rhythm. This uses "ghost notes" (very quiet snare hits) to fill the gaps.*
+- **Tempo**: 160 - 175 BPM
+- **Instruments**: Kick, Snare, Closed Hi-Hat, Open Hi-Hat
+
+| Count | 1 | & | 2 | & | 3 | & | 4 | & |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Hi-Hats** | Closed | | Closed | | Closed | | Closed | Open |
+| **Snare (Pad 2 / Key 2)** | | | X | | | | X | (Ghost) |
+| **Kick (Pad 1 / Key 1)** | X | | | X | | X | | |
+
+*   **How to play**: Start slow! Once you get the syncopated kicks on the "&" of 2 and 3 down, speed it up to get that rolling jungle feel.
+
+---
+
 ## 📥 How to Import the Program Preset
 
 1. **Close GarageBand** (to release the USB MIDI port).
-2. Open the **MPK Mini 3 Program Editor** on your computer.
+2. Open the **MPK Mini 3 Program Editor** on your Mac.
 3. Select **File > Open Program...** and open `GarageBandDrums.mpkmini3`.
 4. Select a program slot (e.g., **Program 1**) in the editor.
 5. Click **File > Send Program...** (or click the **S** icon next to the program slot number) to upload the program to your controller.
