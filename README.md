@@ -4,6 +4,19 @@ A custom, ready-to-import program preset (`.mpkmini3`) for the Akai MPK Mini MK3
 
 ---
 
+## 🎨 Hardware Schematic
+
+Refer to this diagram from the quickstart guide to identify the controls:
+
+![Akai MPK Mini MK3 Schematic](mpk_mini_schematic.png)
+
+*   **Keyboard (3)**: 25 velocity-sensitive keys.
+*   **Pads (9)**: 8 velocity-sensitive pads (Bank A and Bank B).
+*   **Bank A/B button (10)**: Switch between Pad Bank A and Pad Bank B.
+*   **Assignable Knobs (15)**: 8 assignable CC knobs.
+
+---
+
 ## 🛠️ The Problem
 
 By default, the factory presets on the Akai MPK Mini MK3 split the drum kit across two pad banks (Bank A and Bank B):
