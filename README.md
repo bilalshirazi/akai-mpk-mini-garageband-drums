@@ -180,3 +180,13 @@ Here is how to play 4 classic beats on your pads or keys.
 *   **`Garageband.mpkmini3`**: The original, unaltered factory default preset (kept for backup).
 *   **`Untitled.mpkmini3`**: The original raw device program export.
 *   **`mpk_mini_drum_map.png`**: Visual drum mapping schematic diagram for pads and keys.
+
+---
+
+## 📚 References & Learning Resources
+
+To learn more about MIDI mapping and GarageBand's drum kit architecture:
+- **YouTube Video Tutorial**: [How to Program Akai MPK for GarageBand Drums on iOS](https://www.youtube.com/watch?v=FZTibkal8d4) by Dark Roast Recording (detailed setup workflow).
+- **Jamstik Setup Guide**: [How To Make Beats in GarageBand](https://jamstik.com/blogs/jamstik/garageband-drum-mapping-and-jamstik-midi-mapping) (explains octave transposition logic for external controllers).
+- **Wikipedia Reference**: [General MIDI Specification](https://en.wikipedia.org/wiki/General_MIDI#Percussion) (the international standard percussion key map).
+
