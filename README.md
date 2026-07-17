@@ -4,16 +4,11 @@ A custom, ready-to-import program preset (`.mpkmini3`) for the Akai MPK Mini MK3
 
 ---
 
-## 🎨 Hardware Schematic
+## 🎨 Visual Drum Map (Pads & Keys)
 
-Refer to this diagram from the quickstart guide to identify the controls:
+Use this labeled diagram to quickly identify which drum sounds are mapped to the physical pads (Bank A) and the keyboard keys:
 
-![Akai MPK Mini MK3 Schematic](mpk_mini_schematic.png)
-
-*   **Keyboard (3)**: 25 velocity-sensitive keys.
-*   **Pads (9)**: 8 velocity-sensitive pads (Bank A and Bank B).
-*   **Bank A/B button (10)**: Switch between Pad Bank A and Pad Bank B.
-*   **Assignable Knobs (15)**: 8 assignable CC knobs.
+![Akai MPK Mini MK3 Labeled Drum Map](mpk_mini_drum_map.png)
 
 ---
 
@@ -72,7 +67,7 @@ Use the physical **Bank A/B** button on your MPK Mini MK3 to toggle layouts:
 ## 🎹 Using the Keyboard Keys for Drums
 
 To play drum parts using the actual keys on your keyboard, you must transpose the keyboard down so the keys fall into the drum range (MIDI Octave 2).
-- **Setup**: Press the **`Octave Down`** button on your controller twice (so that it flashes or indicates **`OCT -2`**).
+- **Setup**: Press the **`Octave Down`** button on your controller **once** (so that it lights or indicates **`OCT -1`**).
 
 ### How to Find the Keys on Your Keyboard
 If you aren't familiar with musical note names (C, D, E, F, G, A, B), here is a simple way to find them on your MPK Mini's physical keys (starting from the far left):
@@ -184,3 +179,4 @@ Here is how to play 4 classic beats on your pads or keys.
 *   **`GarageBandDrums.mpkmini3`**: The customized preset file ready for import.
 *   **`Garageband.mpkmini3`**: The original, unaltered factory default preset (kept for backup).
 *   **`Untitled.mpkmini3`**: The original raw device program export.
+*   **`mpk_mini_drum_map.png`**: Visual drum mapping schematic diagram for pads and keys.
