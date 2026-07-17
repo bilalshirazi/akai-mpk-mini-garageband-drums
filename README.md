@@ -4,6 +4,13 @@ A custom, ready-to-import program preset (`.mpkmini3`) for the Akai MPK Mini MK3
 
 ---
 
+## 💾 Download Preset File
+
+👉 **[Download GarageBandDrums.mpkmini3 (Direct Link)](https://raw.githubusercontent.com/bilalshirazi/akai-mpk-mini-garageband-drums/main/GarageBandDrums.mpkmini3)** (Right-click and select *Save Link As...* or *Download Linked File*)
+
+
+---
+
 ## 🎨 Visual Drum Map (Pads & Keys)
 
 Use this labeled diagram to quickly identify which drum sounds are mapped to the physical pads (Bank A) and the keyboard keys:
