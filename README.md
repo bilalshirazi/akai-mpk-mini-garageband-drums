@@ -169,6 +169,13 @@ Here is how to play 4 classic beats on your pads or keys.
 
 ---
 
+## 💡 Troubleshooting & Performance Tips
+
+*   **Bass Drum Triggering with Crash**: By default in GarageBand acoustic kits (like *SoCal*), hitting the Crash Cymbal (Pad 7 / note 49) will automatically trigger a Kick Drum (Bass Drum) sound at the same time to make the crash hit sound fuller. If you want the Crash Cymbal to play completely on its own, open **Track Settings > Recording** in GarageBand and toggle **"Bass Drum with Cymbal"** off.
+*   **No Sound on Pads**: Double-check that you have loaded the program preset and selected it on your device. Press and hold the **`Favorites`** button and strike **`Pad 1`** to activate the preset program slot. Also, verify that the **`Bank A/B`** button is glowing **Red** (Bank A).
+
+---
+
 ## 📥 How to Import the Program Preset
 
 1. **Close GarageBand** (to release the USB MIDI port).
@@ -196,4 +203,6 @@ To learn more about MIDI mapping and GarageBand's drum kit architecture:
 - **YouTube Video Tutorial**: [How to Program Akai MPK for GarageBand Drums on iOS](https://www.youtube.com/watch?v=FZTibkal8d4) by Dark Roast Recording (detailed setup workflow).
 - **Jamstik Setup Guide**: [How To Make Beats in GarageBand](https://jamstik.com/blogs/jamstik/garageband-drum-mapping-and-jamstik-midi-mapping) (explains octave transposition logic for external controllers).
 - **Wikipedia Reference**: [General MIDI Specification](https://en.wikipedia.org/wiki/General_MIDI#Percussion) (the international standard percussion key map).
+- **Apple Support Guide**: [Play the Drums in GarageBand for iPad](https://support.apple.com/en-euro/guide/garageband-ipad/chs392830c2/ipados) (details onboard drum kit behaviors, touch sensitivity, and the "Bass Drum with Cymbal" setting).
+
 
