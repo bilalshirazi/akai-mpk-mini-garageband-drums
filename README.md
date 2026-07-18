@@ -11,11 +11,17 @@ A custom, ready-to-import program preset (`.mpkmini3`) for the Akai MPK Mini MK3
 
 ---
 
-## 🎨 Visual Drum Map (Pads & Keys)
+## 🎨 Visual Drum Maps (Pads & Keys)
 
-Use this labeled diagram to quickly identify which drum sounds are mapped to the physical pads (Bank A) and the keyboard keys:
+### 1. General Keyboard & Pad Layout Diagram
+Use this labeled diagram to identify which drum sounds are mapped to the physical pads (Bank A) and the keyboard keys (set to `OCT -1`):
 
 ![Akai MPK Mini MK3 Labeled Drum Map](mpk_mini_drum_map.png)
+
+### 2. iPad Touchscreen Drum Machine Diagram (Classic Drum Machine)
+If you are playing an electronic kit in GarageBand for iPad (which displays a 4x3 grid of 12 pads on the screen), use this diagram to see how your physical Akai pads link to the on-screen buttons:
+
+![iPad Drum Machine Map](mpk_mini_ipad_grid_map.png)
 
 ---
 
@@ -194,6 +200,7 @@ Here is how to play 4 classic beats on your pads or keys.
 *   **`Garageband.mpkmini3`**: The original, unaltered factory default preset (kept for backup).
 *   **`Untitled.mpkmini3`**: The original raw device program export.
 *   **`mpk_mini_drum_map.png`**: Visual drum mapping schematic diagram for pads and keys.
+*   **`mpk_mini_ipad_grid_map.png`**: Visual drum mapping diagram specifically for the iPad's 12-pad grid.
 
 ---
 
