@@ -1,25 +1,33 @@
 # Akai MPK Mini MK3 - GarageBand Drum Preset Mapping
 
-A custom, ready-to-import program preset (`.mpkmini3`) for the Akai MPK Mini MK3 that maps the 8 pads ergonomically to work seamlessly with GarageBand's default drum kits.
+Custom, ready-to-import program presets (`.mpkmini3`) for the Akai MPK Mini MK3 that map the 8 pads ergonomically to work seamlessly with GarageBand's default drum kits.
 
 ---
 
-## 💾 Download Preset File
+## 💾 Download Preset Files
 
-👉 **[Download GarageBandDrums.mpkmini3 (Direct Link)](https://raw.githubusercontent.com/bilalshirazi/akai-mpk-mini-garageband-drums/main/GarageBandDrums.mpkmini3)** (Right-click and select *Save Link As...* or *Download Linked File*)
+This repository provides **two distinct presets** tailored to the two main drum kit types. You can download them directly below:
 
+1.  👉 **[Download GarageBandDrums.mpkmini3 (Acoustic Kit Preset)](https://raw.githubusercontent.com/bilalshirazi/akai-mpk-mini-garageband-drums/main/GarageBandDrums.mpkmini3)** (Right-click -> *Save Link As...*)
+    *   *Best for: Acoustic kits like SoCal, Classic Rock, etc.*
+    *   *Saves to: **Program Slot 1** (`GB DRUMS`)*
+2.  👉 **[Download GarageBandBeats.mpkmini3 (Drum Machine Preset)](https://raw.githubusercontent.com/bilalshirazi/akai-mpk-mini-garageband-drums/main/GarageBandBeats.mpkmini3)** (Right-click -> *Save Link As...*)
+    *   *Best for: Electronic kits like Classic Drum Machine (808), Trap Door, House, etc.*
+    *   *Saves to: **Program Slot 2** (`GB BEATS`)*
+
+*To switch between them in real-time, press and hold the physical **`Favorites`** button on your controller, then press **`Pad 1`** or **`Pad 2`**.*
 
 ---
 
 ## 🎨 Visual Drum Maps (Pads & Keys)
 
-### 1. General Keyboard & Pad Layout Diagram
-Use this labeled diagram to identify which drum sounds are mapped to the physical pads (Bank A) and the keyboard keys (set to `OCT -1`):
+### 1. Acoustic Drum Kit Layout (GB DRUMS - Program 1)
+*Optimized for acoustic playing, putting Kick, Snare, Closed Hat, and Open Hat on the bottom row, and Toms/Crash/Clap on the top row.*
 
 ![Akai MPK Mini MK3 Labeled Drum Map](mpk_mini_drum_map.png)
 
-### 2. iPad Touchscreen Drum Machine Diagram (Classic Drum Machine)
-If you are playing an electronic kit in GarageBand for iPad (which displays a 4x3 grid of 12 pads on the screen), use this diagram to see how your physical Akai pads link to the on-screen buttons:
+### 2. Electronic Drum Machine Layout (GB BEATS - Program 2)
+*Optimized for electronic drum machines, putting Kick, Snare, Closed Hat, and Open Hat on the bottom row, and Rimshot, Clap, Cowbell, and Maracas on the top row.*
 
 ![iPad Drum Machine Map](mpk_mini_ipad_grid_map.png)
 
@@ -31,49 +39,19 @@ By default, the factory presets on the Akai MPK Mini MK3 split the drum kit acro
 - **Bank B** contained the lower drum elements (Kick, Snare, Closed Hi-Hat).
 - **Bank A** (which is active by default when the controller powers on) only contained auxiliary elements (Toms, Crash, open hat, etc.).
 
-This made playing standard beats impossible without constantly toggling between Bank A and Bank B.
+This made playing standard beats impossible without constantly toggling between Bank A and Bank B. Having a dual-preset setup allows you to play either acoustic or electronic kits fully on a single bank without toggling.
 
 ---
 
-## 🚀 The Solution
+## 🥁 Pad Layout Details
 
-This repository provides **`GarageBandDrums.mpkmini3`**, which keeps the factory default knob CCs and arpeggiator controls intact, but restructures the pad note mappings:
-- **Bank A** has been customized into an **Ergonomic Finger Drumming Layout**. You can now play a full kit (Kick, Snare, Closed Hat, Open Hat, Toms, Crash, and Clap) on a single bank.
-- **Bank B** remains mapped to the factory-default **Chromatic General MIDI Layout** (consecutive MIDI notes 35–43, skipping hand clap).
+### Acoustic Preset (`GB DRUMS`) Layout:
+- **Pad 1**: Kick (36) | **Pad 2**: Snare (38) | **Pad 3**: Closed Hat (42) | **Pad 4**: Open Hat (46)
+- **Pad 5**: Floor Tom (41) | **Pad 6**: Hi-Mid Tom (48) | **Pad 7**: Crash Cymbal (49) | **Pad 8**: Clap (39)
 
----
-
-## 🥁 Pad Layouts
-
-Use the physical **Bank A/B** button on your MPK Mini MK3 to toggle layouts:
-
-### Bank A (Red LED): Ergonomic Finger Drumming Layout (Customized)
-*Optimized for comfort, placing the core groove components (Kick, Snare, Hi-Hats) under your primary fingers on the bottom row.*
-
-| Pad | Row | MIDI Note | Note Name | Drum Sound |
-| :--- | :--- | :--- | :--- | :--- |
-| **Pad 1** | Bottom Left | 36 | C2 | Bass Drum 1 (Kick) |
-| **Pad 2** | Bottom Mid-Left | 38 | D2 | Snare Drum |
-| **Pad 3** | Bottom Mid-Right | 42 | F#2 | Closed Hi-Hat |
-| **Pad 4** | Bottom Right | 46 | Bb2 | Open Hi-Hat |
-| **Pad 5** | Top Left | 41 | F2 | Low Floor Tom |
-| **Pad 6** | Top Mid-Left | 48 | C3 | Hi-Mid Tom |
-| **Pad 7** | Top Mid-Right | 49 | C#3 | Crash Cymbal 1 |
-| **Pad 8** | Top Right | 39 | Eb2 | Hand Clap |
-
-### Bank B (Green LED): Chromatic General MIDI Layout (Factory Default)
-*The default layout shipped with the Akai editor. It maps the first 8 consecutive MIDI drum notes (C2 to G2, skipping the clap).*
-
-| Pad | Row | MIDI Note | Note Name | Drum Sound |
-| :--- | :--- | :--- | :--- | :--- |
-| **Pad 1** | Bottom Left | 35 | B1 | Bass Drum 2 |
-| **Pad 2** | Bottom Mid-Left | 36 | C2 | Bass Drum 1 (Kick) |
-| **Pad 3** | Bottom Mid-Right | 37 | C#2 | Side Stick (Rimshot) |
-| **Pad 4** | Bottom Right | 38 | D2 | Snare Drum |
-| **Pad 5** | Top Left | 40 | E2 | Electric Snare |
-| **Pad 6** | Top Mid-Left | 41 | F2 | Low Floor Tom |
-| **Pad 7** | Top Mid-Right | 42 | F#2 | Closed Hi-Hat |
-| **Pad 8** | Top Right | 43 | G2 | Mid Floor Tom |
+### Drum Machine Preset (`GB BEATS`) Layout:
+- **Pad 1**: Kick (36) | **Pad 2**: Snare (38) | **Pad 3**: Closed Hat (42) | **Pad 4**: Open Hat (46)
+- **Pad 5**: Rimshot (37) | **Pad 6**: Hand Clap (39) | **Pad 7**: Cowbell (56) | **Pad 8**: Maracas (50)
 
 ---
 
@@ -116,7 +94,6 @@ If you aren't familiar with musical note names (C, D, E, F, G, A, B), here is a 
 Here is how to play 4 classic beats on your pads or keys.
 
 ### 1. The Classic Rock Backbeat (4/4)
-*The most fundamental drum beat in modern music.*
 - **Tempo**: 100 - 120 BPM
 - **Instruments**: Kick, Snare, Closed Hi-Hat
 
@@ -126,12 +103,11 @@ Here is how to play 4 classic beats on your pads or keys.
 | **Snare (Pad 2 / Key 2)** | | | X | | | | X | |
 | **Kick (Pad 1 / Key 1)** | X | | | | X | | | |
 
-*   **How to play**: Keep a steady "tick-tick-tick" with your right hand on the Hi-Hat. Tap the Kick with your left thumb on beats 1 and 3, and hit the Snare with your left index finger on beats 2 and 4.
+*   **How to play**: Keep a steady "tick-tick-tick" on the Hi-Hat. Tap the Kick on beats 1 and 3, and hit the Snare on beats 2 and 4.
 
 ---
 
 ### 2. Boom-Bap Hip-Hop Groove
-*The signature golden-era hip-hop rhythm.*
 - **Tempo**: 85 - 95 BPM
 - **Instruments**: Kick, Snare, Closed Hi-Hat, Open Hi-Hat
 
@@ -146,7 +122,6 @@ Here is how to play 4 classic beats on your pads or keys.
 ---
 
 ### 3. Reggae "One Drop" Beat
-*The heartbeat of reggae music. The defining feature is that beat 1 is completely empty (no kick), and the kick/snare strike together only on beat 3.*
 - **Tempo**: 75 - 80 BPM
 - **Instruments**: Kick, Rimshot (Key C# or Bank B Pad 3), Closed Hi-Hat
 
@@ -161,7 +136,6 @@ Here is how to play 4 classic beats on your pads or keys.
 ---
 
 ### 4. Drum & Bass / Jungle Beat
-*A fast, syncopated rhythm. This uses "ghost notes" (very quiet snare hits) to fill the gaps.*
 - **Tempo**: 160 - 175 BPM
 - **Instruments**: Kick, Snare, Closed Hi-Hat, Open Hi-Hat
 
@@ -178,38 +152,40 @@ Here is how to play 4 classic beats on your pads or keys.
 ## 💡 Troubleshooting & Performance Tips
 
 *   **Bass Drum Triggering with Crash**: By default in GarageBand acoustic kits (like *SoCal*), hitting the Crash Cymbal (Pad 7 / note 49) will automatically trigger a Kick Drum (Bass Drum) sound at the same time to make the crash hit sound fuller. If you want the Crash Cymbal to play completely on its own, open **Track Settings > Recording** in GarageBand and toggle **"Bass Drum with Cymbal"** off.
-*   **No Sound on Pads**: Double-check that you have loaded the program preset and selected it on your device. Press and hold the **`Favorites`** button and strike **`Pad 1`** to activate the preset program slot. Also, verify that the **`Bank A/B`** button is glowing **Red** (Bank A).
+*   **No Sound on Pads**: Double-check that you have loaded the program preset and selected it on your device. Press and hold the **`Favorites`** button and strike **`Pad 1`** (for Acoustic) or **`Pad 2`** (for Electronic) to activate the preset program slot. Also, verify that the **`Bank A/B`** button is glowing **Red** (Bank A).
 
 ---
 
-## 📥 How to Import the Program Preset
+## 📥 How to Import the Program Presets
 
 1. **Close GarageBand** (to release the USB MIDI port).
 2. Open the **MPK Mini 3 Program Editor** on your Mac.
-3. Select **File > Open Program...** and open `GarageBandDrums.mpkmini3`.
-4. Select a program slot (e.g., **Program 1**) in the editor.
-5. Click **File > Send Program...** (or click the **S** icon next to the program slot number) to upload the program to your controller.
-6. Open GarageBand, load a drum kit software instrument track, and test the pads!
-7. **Important:** Make sure to select **Program 1** on your device (press and hold the **Favorites** button, then press **Pad 1**).
+3. Import **Program 1 (Acoustic Kit)**:
+   * Select **File > Open Program...** and choose `GarageBandDrums.mpkmini3`.
+   * In the program editor, select **Program 1** slot.
+   * Click **File > Send Program...** (or click the **S** icon next to Program 1) to send it to the hardware.
+4. Import **Program 2 (Drum Machine)**:
+   * Select **File > Open Program...** and choose `GarageBandBeats.mpkmini3`.
+   * In the program editor, select **Program 2** slot.
+   * Click **File > Send Program...** (or click the **S** icon next to Program 2) to send it to the hardware.
+5. On your keyboard: Hold **`Favorites`** and press **`Pad 1`** to play Acoustic drums, or **`Pad 2`** to play Electronic beats.
 
 ---
 
 ## 📂 Files in this Repository
 
-*   **`GarageBandDrums.mpkmini3`**: The customized preset file ready for import.
+*   **`GarageBandDrums.mpkmini3`**: The customized preset file for acoustic kits.
+*   **`GarageBandBeats.mpkmini3`**: The customized preset file for electronic drum machines.
 *   **`Garageband.mpkmini3`**: The original, unaltered factory default preset (kept for backup).
 *   **`Untitled.mpkmini3`**: The original raw device program export.
-*   **`mpk_mini_drum_map.png`**: Visual drum mapping schematic diagram for pads and keys.
-*   **`mpk_mini_ipad_grid_map.png`**: Visual drum mapping diagram specifically for the iPad's 12-pad grid.
+*   **`mpk_mini_drum_map.png`**: Visual drum mapping schematic diagram for pads and keys (Acoustic).
+*   **`mpk_mini_ipad_grid_map.png`**: Visual drum mapping diagram specifically for the iPad's 12-pad grid (Electronic).
 
 ---
 
 ## 📚 References & Learning Resources
 
-To learn more about MIDI mapping and GarageBand's drum kit architecture:
-- **YouTube Video Tutorial**: [How to Program Akai MPK for GarageBand Drums on iOS](https://www.youtube.com/watch?v=FZTibkal8d4) by Dark Roast Recording (detailed setup workflow).
-- **Jamstik Setup Guide**: [How To Make Beats in GarageBand](https://jamstik.com/blogs/jamstik/garageband-drum-mapping-and-jamstik-midi-mapping) (explains octave transposition logic for external controllers).
-- **Wikipedia Reference**: [General MIDI Specification](https://en.wikipedia.org/wiki/General_MIDI#Percussion) (the international standard percussion key map).
-- **Apple Support Guide**: [Play the Drums in GarageBand for iPad](https://support.apple.com/en-euro/guide/garageband-ipad/chs392830c2/ipados) (details onboard drum kit behaviors, touch sensitivity, and the "Bass Drum with Cymbal" setting).
-
-
+- **YouTube Video Tutorial**: [How to Program Akai MPK for GarageBand Drums on iOS](https://www.youtube.com/watch?v=FZTibkal8d4) by Dark Roast Recording.
+- **Jamstik Setup Guide**: [How To Make Beats in GarageBand](https://jamstik.com/blogs/jamstik/garageband-drum-mapping-and-jamstik-midi-mapping).
+- **Wikipedia Reference**: [General MIDI Specification](https://en.wikipedia.org/wiki/General_MIDI#Percussion).
+- **Apple Support Guide**: [Play the Drums in GarageBand for iPad](https://support.apple.com/en-euro/guide/garageband-ipad/chs392830c2/ipados).
